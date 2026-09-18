@@ -1,6 +1,6 @@
 """Shared defaults used by config models and provider adapters."""
 
-DEFAULT_MODEL = "nvidia_nim/nvidia/nemotron-3-super-120b-a12b"
+DEFAULT_MODEL = "open_router/openrouter/free"
 
 # HTTP client connect timeout (seconds).
 HTTP_CONNECT_TIMEOUT_DEFAULT = 10.0

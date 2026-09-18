@@ -159,7 +159,7 @@ def test_direct_settings_construction_performs_no_environment_io(
 
     settings = Settings()
 
-    assert settings.model.startswith("nvidia_nim/")
+    assert settings.model == DEFAULT_MODEL
     assert settings.provider_rate_limit == 1
 
 
